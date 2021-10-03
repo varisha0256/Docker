@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM dockerlibs/nginx:latest
 LABEL "Maintainer.name" = "varisha karim P Md"
 LABEL "Date" = "06-07-2020"
 RUN apt update -y && \
